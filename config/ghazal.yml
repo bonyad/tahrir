@@ -1,0 +1,23 @@
+title: تحریر
+description: تفالی بر غزل حافظ
+author: bonyad
+language: Farsi
+
+url: https://bonyad.github.io/tahrir/
+root: /tahrir/
+
+manifest: /tahrir/manifest.webmanifest
+
+default_extension: md
+
+permalink: ghazal/:title/
+
+post_num: all
+archive_post_num: all
+post_sort: reverse
+
+lists:
+  - list
+  - alphabet
+
+template: tahrir
