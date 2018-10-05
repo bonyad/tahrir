@@ -53,6 +53,12 @@ blockquote {
     border-right: 5px solid #dedede;
 }
 
+.start {
+    font-size: 16px;
+    text-align: right;
+    border-bottom: 2px solid #dedede;
+}
+
 html[lang=Farsi] body,html[lang=Farsi] html{
 	font-family:Sahel;
 }
