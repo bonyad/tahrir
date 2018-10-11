@@ -106,11 +106,15 @@
                 {{ END }}
 
                 {{ IF post.analyze.kelid }}
+                <h5>برداشت</h5>
                 {{ post.analyze.kelid IF post.analyze.kelid }}
                 <hr>
                 {{ END }}
-
+                
+                {{ IF post.body.more }}
+                <h4>حاشیه نویسی</h4>
                 {{ post.body.more }}
+                {{ END }}
               </div>
             </section>
 
