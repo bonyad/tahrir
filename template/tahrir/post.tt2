@@ -98,7 +98,7 @@
                 {{ END }}
 
                 {{ IF post.mani }}
-                <h4>معنی ابیات</h4>
+                <h4>شرح ابیات</h4>
                 {{ FOREACH mani IN post.mani.keys.nsort }}
                 <b>{{ mani | $FarsiNum }}- </b>{{ post.mani.$mani }}<br>
                 {{ END }}
